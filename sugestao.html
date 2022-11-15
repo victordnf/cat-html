@@ -3,59 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sugestao</title>
+    <meta name="viewpor t" content="width=device-width, initial-scale=1.0">
+    <title>sugestão</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header class="align-center">
         <nav>
             <ul>
-                <li>
-                    <a href="index.html">Home</a>
+                <li class="nav-button">
+                    <a class="nav-text" href="index.html">Home</a>
                 </li>
-                <li>
-                    <a href="tabela.html">Nomes</a>
+                <li class="nav-button">
+                    <a class="nav-text" href="tabela.html">Nomes</a>
                 </li>
             </ul>
+        </nav>
+        <nav>
+            <h1>Ajude-nos a melhorar</h1>
         </nav>
     </header>
     <hr>
 
     <main>
         <section>
-            <div>
-                <h1>Caixa de sugestões</h1>
-                <form>
-                    <p>
-                        <label for="name">Nome</label>
-                        <input name="name" type="text" id="name">
-                    </p>
-                    <p>
-                        <label for="messege">Sugestão</label>
-                        <textarea name="message" id="message" cols="20" rows="2"></textarea>
-                    </p>
-                    <button id="send">enviar</button>
+            <div class="align-center text">
+                    <form>
+                        <fieldset>
+                            <h2>Formulário</h2>
+                        <br>
+                        <p>Este é um formulário que vai de de 1 a 5, sendo que 1 precisa melhor urgentemente e 5 é o que está de boa.</p>
+                        <br>
+                        Qualidade dos serviços: <input type="radio" name="task1">  1
+                        <input type="radio" name="task1"> 2
+                        <input type="radio" name="task1"> 3
+                        <input type="radio" name="task1"> 4
+                        <input type="radio" name="task1"> 5
+                        <br>
+                        Conteúdo: <input type="radio" name="task2">  1
+                        <input type="radio" name="task2"> 2
+                        <input type="radio" name="task2"> 3
+                        <input type="radio" name="task2"> 4
+                        <input type="radio" name="task2"> 5
+                        <br>
+                        Interação da página: <input type="radio" name="task3"> 1 
+                        <input type="radio" name="task3"> 2
+                        <input type="radio" name="task3"> 3
+                        <input type="radio" name="task3"> 4
+                        <input type="radio" name="task3"> 5
+                        <br>
+                        Layout: <input type="radio" name="task4"> 1
+                        <input type="radio" name="task4"> 2
+                        <input type="radio" name="task4"> 3
+                        <input type="radio" name="task4"> 4
+                        <input type="radio" name="task4"> 5
+                        <br>
+                        Qualidade das imagens: <input type="radio" name="task5"> 1
+                        <input type="radio" name="task5"> 2
+                        <input type="radio" name="task5"> 3
+                        <input type="radio" name="task5"> 4
+                        <input type="radio" name="task5"> 5
+                        <br>
+                        <button id="send"s>enviar</button>
+                        <br><br>
+                    </fieldset>
                 </form>
             </div>
+        </section>
+        <section>
+            <div class="align-center text">
+                    <form>
+                        <fieldset>
+                            <h2>Caixa de sugestões</h2>
+                            <p class="container">
+                                <label for="name">Nome:</label>
+                                <input name="name" t ype="t ext" id="name">
+                            </p>
+                            <p class="container">
+                                <label for="email">Email:</label>
+                                <input email="email" type="email" id="email">
+                            </p>
+                            <p class="container">
+                                <label for="messege">Sugestão:<label>
+                                <textarea name="message " id="message" cols="30" rows="3"></textarea>
+                            </p>
+                                <button id="send"s>enviar</button>
+                                <br><br>
+                        </fieldset>
+                    </form>
+            </div>
             <br>
-            <div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/tfzANRGZUL4" title="YouTube video player"
-                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+            <div class="align-center">
+                <h2>Agradecemos o seu feedback!</h2>
             </div>
         </section>
     </main>
-
     <hr>
+
     <footer>
-        <p> Redes sociais famosas de gatinhos fofos</p>
-        <a target="_blank" href="https://www.instagram.com/gatinhosfofinhosoficial/">
-            <img width="30" src="assets/images/pngegg.png"></a>
-        <a target="_blank" href="https://twitter.com/TodoDiaGatinhos">
-            <img width="30" src="assets/images/pngwing.com (2).png"></a>
-        <a target="_blank" href="https://www.youtube.com/c/GatosFofos/videos">
-            <img width="60" src="assets/images/pngwing.com (1).png"></a>     
+        <div class="text">
+            <p>
+                <h4>Redes sociais do criador</h4>
+            </p>
+        </div>
+        <div>
+            <a target="_blank" href="https://www.linkedin.com/in/victor-fran%C3%A7a-85b699178">
+                <img class="social" src="assets/images/pngwing.com.png" alt="img">
+            </a>
+            <a target="_blank" href="https://www.instagram.com/victordnf/">
+                <img class="social" src="assets/images/pngegg.png" alt="img">
+            </a>
+            <a target="_blank" href="https://github.com/victordnf">
+                <img class="social" src="assets/images/kisspng-github-computer-icons-clip-art-gits-5b4d20ab4d91f7.4085637115317812913177.png" alt="img">
+            </a>
+        </div>
+    </footer>    
 </body>
-</footer>
 </html>

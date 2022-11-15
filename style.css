@@ -1,26 +1,49 @@
 
 * {
-    margin: 1px;
-    padding: 1px;
+    margin: 0px;
+    margin-top: 10px;
+    padding: 0px;
 }
-
-header{
-    text-align: center;
-}
-
-main{
-    text-align: center;
+@font-face {
+    font-family: 'font Japan' ;
+    src: url('/fonts/To Japan.otf') format('opentype');
 }
 
 li {
     display: inline;
 }
 
+h1{
+    font-family: 'font Japan' , Times, serif;
+    font-size: 3rem;
+    margin: 0px;
+    color: rgb(0, 0, 0);
+}
+h2{
+    font-family: 'font Japan' , Times, serif;
+    font-size: 18px;
+}
+
+legend{
+    font-family: 'font Japan' , Times, serif;
+    font-size: 30px;
+    margin-left: 60px;
+}
+
 a {
     text-decoration: none;
 }
 
-footer{
+linearGradient{
+    background-color: rgb(202, 64, 64);
+    margin-left: 25% ;
+    margin-right: 25% ;
+    padding: 2px;
+    border-color: black;
+
+}
+
+.align-center{
     text-align: center;
 }
 
@@ -39,44 +62,57 @@ footer{
 }
 
 .nav-text{
+    font-family: 'font Japan' , Times, serif;;
     font-weight: bold;
-    font-size: x-large;
+    font-size: large;
     color: black;
 }
 
-#title{
+#topic{
     text-align: center;
     font-weight: bold;
-    font-size: xx-large;
+    font-family: 'font Japan' , Times, serif;;
+    font-size: x-large;
     background-color: rgb(167, 141, 177);
+    color: white;
     border-radius: 15px;
     justify-content: center;
 }
 
 .text{
-    font-size: medium;
+    font-family: 'font Japan' , Times, serif;;
+    font-size: x-small;
+    font-weight: 200;
 }
 
 .picture{
     width: 100%;
-}
+}   
 
 .social{
     width: 25px;
 }
 
 .container{
+    justify-content: center;
     display: flex;
+    margin-top: 10px;
 }
 
 @media(max-width: 500px){
     .container{
-        flex-direction: column-reverse ;
+        flex-direction: column;
     }
 }
 
 .container > div{
     width: 400px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 60px;
+    padding: 0px;
 }
 
 hr{
