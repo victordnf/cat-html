@@ -4,6 +4,11 @@
     margin-top: 10px;
     padding: 0px;
 }
+
+body{
+    background-image:  url('assets/images/pngwing.com\ \(3\).png');
+}
+
 @font-face {
     font-family: 'font Japan' ;
     src: url('/fonts/To Japan.otf') format('opentype');
